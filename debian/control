@@ -1,0 +1,20 @@
+Source: geckgodriver
+Section: unknown
+Priority: optional
+Maintainer: Joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/mozilla/geckodriver
+Vcs-Browser: https://github.com/pwnpine/geckgodriver
+Vcs-Git: https://github.com/pwnpine/geckodriver.git
+
+Package: geckgodriver
+Architecture: amd64
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: WebDriver for Firefox
+	geckodriver binary packages.

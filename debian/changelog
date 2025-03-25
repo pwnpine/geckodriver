@@ -1,0 +1,5 @@
+geckgodriver (0.36.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Joe <joe@rstrike.my.id>  Tue, 25 Mar 2025 12:04:42 +0000
